@@ -1,0 +1,39 @@
+:root {
+    --main-color: #61ACF0;
+    --main-color-light: #6EB2F2;
+    --main-color-dark: #3B97ED;
+    --main-color-darker: #2B72E3;
+    --main-color-hover: rgb(104, 117, 217, 0.2);
+    --track-color: #4b4b4b;
+    --main-grey: #222222;
+    --main-grey-dark: #1E1E1E;
+    --main-grey-light: #333333;
+    --lighten: #ffffff10;
+}
+
+.ingredientContainer {
+    margin-bottom: 12pt;
+}
+
+.ingredientHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 4pt;
+
+    width: 100%;
+
+    border-top-left-radius: 5px;
+}
+
+.buttonBox {
+    display: flex;
+
+    padding-top: 4pt;
+    padding-bottom: 4pt;
+}
+
+.ingredientTitle {
+    padding-left: 4pt;
+}

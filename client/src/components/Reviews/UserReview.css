@@ -1,0 +1,63 @@
+.reviewContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+}
+
+.reviewHeader {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.reviewContent {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.reviewActions {
+  margin-left: auto;
+}
+
+.editSection {
+  margin-top: 10px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.replyContainer {
+  width: 100%;
+  margin-top: 16px;
+}
+
+.replyBox {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  margin-top: 8px;
+  margin-left: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  flex-direction: column;
+}
+
+.replyHeader {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.replyActions {
+  margin-left: auto;
+}
+
+.wordBreak {
+  word-break: break-word;
+}

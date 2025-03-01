@@ -1,0 +1,104 @@
+.randomButtonContainer {
+    height: 25vh;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #f3f300;
+    border-radius: 12px;
+    padding: 16px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+    background: linear-gradient(to left, hsla(200, 5%, 50%, 0), #007bbd);
+    color: white;
+}
+
+.randomButtonContainer:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 12px rgba(0, 174, 243, 0.6);
+}
+
+.surpriseText {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5rem;
+    color: #ffea00;
+    text-shadow: 1px 1px 5px rgba(255, 234, 0, 0.7);
+}
+
+.surpriseIcon {
+    width: 50px;
+    height: 50px;
+    background-image: url('/logos/icon-dark.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: shake 0.5s infinite alternate;
+}
+
+.randomButtonModalContainer {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 400px;
+    padding: 1.5rem;
+    background-color: #222;
+    border: 2px solid #fefefe;
+    border-radius: 16px;
+    box-shadow: 0px 18px 30px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.drinkName {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffeb3b;
+    text-shadow: 1px 1px 8px rgba(255, 235, 59, 0.8);
+}
+
+.randomButtonModalImage {
+    width: 200px;
+    height: 200px;
+    margin: 12px auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20%;
+    border: 1px solid #ffea00;
+}
+
+.drinkIngredients {
+    font-size: 1rem;
+    color: #e0e0e0;
+}
+
+.randomButtonModalButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.tryAnotherButton, .viewMoreButton {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+    color: white !important;
+    transition: transform 0.2s ease-in-out;
+}
+
+.tryAnotherButton {
+    background-color: #c80085 !important;
+}
+
+.viewMoreButton {
+    background-color: #d400f9 !important;
+}
+
+.tryAnotherButton:hover, .viewMoreButton:hover {
+    transform: scale(1.1);
+}

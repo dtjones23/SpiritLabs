@@ -1,0 +1,109 @@
+:root {
+    --main-color: #61ACF0;
+    --main-color-light: #6EB2F2;
+    --main-color-dark: #3B97ED;
+    --main-color-hover: rgb(104, 117, 217, 0.2);
+    --track-color: #4b4b4b;
+    --lighten: #ffffff10;
+}
+
+.customSlider {
+    margin: auto;
+}
+
+.customSliderTrack {
+    /* Align track to center of thumb */
+    top: 5.5px;
+    /* track thickness */
+    height: 8px;
+    /* default track color */
+    background: var(--track-color);
+    /* rounded corners */
+    border-radius: 4px;
+}
+
+.customSliderTrack.customSliderTrack-0 {
+    /* track color before thumb */
+    background: var(--main-color);
+}
+
+.customSliderThumb {
+    cursor: pointer;
+    /* thumb color */
+    background: var(--main-color);
+    /* thumb shape */
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    /* remove default outline when selected */
+    outline: none;
+}
+
+.customSliderThumb:hover {
+    box-shadow: 0 0 0 8px var(--main-color-hover);
+}
+
+.customSliderMark {
+    cursor: pointer;
+    top: 0px;
+    width: 2px;
+    height: 4px;
+    background: var(--track-color);
+}
+
+.customSliderMark-before {
+    background: var(--main-color-dark);
+}
+
+.customSliderMark-after {
+    display: none;
+}
+
+.sliderCard {
+    padding: 2pt 4pt 2pt 4pt;
+    margin: 0px 2px 0px 2px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: fit-content;
+    background: var(--main-grey);
+    border-radius: 0px 5px 5px 5px;
+}
+
+.sliderContainer {
+    padding-top: 6px;
+    margin: 4px;
+    height: 32px;
+    width: 200px;
+}
+
+.valueContainer {
+    padding-top: 4px;
+    padding-left: 4px;
+    margin: 4px;
+    height: 30px;
+    width: 42px;
+    background: var(--lighten);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.measureContainer {
+    padding: 3px;
+    margin: 4px;
+    height: 30px;
+    width: 60px;
+    background: var(--main-grey);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.sliderValue {
+    color: #fff;
+}
+
+.unitBox {
+    padding: 3px;
+    margin: 2px;
+    min-width: 85px;
+}

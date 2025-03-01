@@ -1,0 +1,29 @@
+:root {
+    --main-color: #61ACF0;
+    --main-color-light: #6EB2F2;
+    --main-color-dark: #3B97ED;
+    --main-color-hover: rgb(104, 117, 217, 0.2);
+    --track-color: #4b4b4b;
+    --lighten: #ffffff10;
+}
+
+.svgCard {
+    padding: 8pt;
+    margin-left: 4pt;
+    margin-top: 16pt;
+    background-color: var(--lighten);
+    border-radius: 5px;
+}
+
+.resultsContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.resultsBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 16pt auto auto;
+}

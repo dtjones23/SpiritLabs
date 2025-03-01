@@ -1,0 +1,157 @@
+:root {
+  /* COLORS */
+  --main-blue: #00BBF9;
+  --main-black: #2F2F2F;
+  --main-white: #FDFFFC;
+  --main-coral: #EF767A;
+
+  --darker-overlay: #00000080;
+  --dark-overlay: #00000030;
+
+  /* STYLES */
+  --round: 6pt;
+  --full: 100%;
+  --padding: 4pt;
+  --morepadding: 8pt;
+  --margin: 4pt;
+  --moremargin: 8pt;
+}
+/* Home.css */
+
+.container {
+padding: 16px;
+max-width: 1200px;
+margin: auto;
+}
+
+.welcome-section {
+background: linear-gradient(195deg, #000000, #434343, #666666, #999999, #cccccc, #ffffff);
+color: white;
+padding: 24px;
+text-align: center;
+border-radius: 16px;
+margin-bottom: 16px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.welcome-text {
+text-align: center;
+max-width: 600px;
+margin: auto;
+line-height: 1.6;
+text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.box {
+background-color: #fff;
+border-radius: 16px;
+padding: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+margin-bottom: 16px;
+}
+
+.exploreCard {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+  margin: var(--margin);
+  padding: var(--morepadding);
+
+  border-radius: var(--round);
+
+  background-size: cover;
+  background-color: var(--main-black);
+
+  min-height: 250px;
+}
+
+.exploreCardHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardHeaderItem {
+  display: flex;
+  justify-content: center;
+  padding: var(--padding);
+  padding-left: var(--morepadding);
+  padding-right: var(--morepadding);
+
+  color: var(--main-black);
+  font-weight: bolder !important;
+  
+  max-height: 24pt;
+
+  background-color: var(--main-white);
+  border-radius: 12pt;
+}
+
+.exploreCardHeaderChips {
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.exploreCardFooter {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: var(--darker-overlay);
+
+  padding: var(--morepadding);
+  margin: -8pt;
+
+  border-radius: var(--round);
+  border-top-left-radius: 0pt;
+  border-top-right-radius: 0pt;
+}
+
+.cardFavoriteButton {
+  background-color: var(--dark-overlay) !important;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 70vh;
+  background-color: #c8c8c8;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.profile-message-box {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-message-text {
+  margin-bottom: 16px;
+  color: #333333;
+}
+
+.profile-button {
+  margin-top: 16px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.empty-favorites {
+  background-color: #808080;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.welcome-user {
+  width: 100%;
+  text-align: center;
+  white-space: nowrap;
+  margin-top: 10px;
+  color:#EF767A
+}
